@@ -1,0 +1,19 @@
+{
+  "name": "myportafolioproject",
+  "version": "1.0.0",
+  "description": "\"Create basics node configuration and NPM\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maaferna/portafolio-resume.git"
+  },
+  "author": "Marco A. Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maaferna/portafolio-resume/issues"
+  },
+  "homepage": "https://github.com/maaferna/portafolio-resume#readme"
+}
