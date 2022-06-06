@@ -5,13 +5,19 @@
         <title>My Portfolio Website</title>
         <script src="https://kit.fontawesome.com/82f95dc438.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     </head>
     
     <body>
         <main>
-            <header>
+            <header class="jumbotron">
                 <h1>
-                    Marco Antonio Parra.
+                    Marco Antonio F. Parra.
                 </h1>
                 <a href="#">Work Experience</a>
 				<a href="#">Education</a>
@@ -51,9 +57,22 @@
 
             <section>
                 <h2>Achievements</h2>
-                Progress in this course(100%)<progress value="98" max="100"></progress><br>
-                Progress in the Specialization capstone(20%)<progress value="24" max="100"></progress><br>
-                Progress in life goals<mark>(56%)</mark><progress value="50" max="100"></progress><br>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-sm-3">
+                            Progress in this course(100%)<progress value="98" max="100"></progress><br>
+                            
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            Progress in the Specialization capstone(20%)<progress value="24" max="100"></progress><br>
+                            
+                        </div>
+                        <div class="col-12 col-sm-3">
+                            Progress in life goals<mark>(56%)</mark><progress value="50" max="100"></progress><br>
+                        </div>            
+                    </div>
+                    
+                </div>
             </section>
     
             </figure>
@@ -79,12 +98,35 @@
         </main>
     
         <footer>
-            <p>
-                Marco Antonio Fernández Parra · Magíster en Ingeniería Industrial · Ingeniero Civil Industrias de La Madera
-            </p>
-            <a href="https://www.linkedin.com/in/marco-antonio-parra-82999337/" aria-label="Linkedin"><i class="fab fa-linkedin fa-5x"></i></a>
-            <a href="https://github.com/maaferna"><i class="fab fa-github fa-5x"></i></a>
-            This page was created by <mark>Marco Antonio </mark> &amp; Parra. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>.
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <p>
+                            Marco Antonio Fernández Parra
+                        </p>
+                    </div>
+                    <div class="col col-sm col-md">
+                        <p>
+                            ·Magíster en Ingeniería Industrial · Ingeniero Civil Industrias de La Madera
+                        </p>    
+                    </div>
+
+                </div>
+            </div>
+                <div class="row">
+                    <a href="https://www.linkedin.com/in/marco-antonio-parra-82999337/" aria-label="Linkedin"><i class="fab fa-linkedin fa-5x"></i></a>
+                    <a href="https://github.com/maaferna"><i class="fab fa-github fa-5x"></i></a>                          
+                </div>
+                <div>
+                    This page was created by <mark>Marco Antonio Parra</mark>. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>.
+                </div>
+            </div>
+            
         </footer>
+    
+        <!-- Required meta tags always come first -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>

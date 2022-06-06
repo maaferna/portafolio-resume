@@ -13,12 +13,13 @@ header{
     background: #6666;
     text-align: center;
 }
+
 p{
     color: gray;
 }
 
 mark{
-    background-color: azure;
+    background-color: rgb(255, 249, 240);
 }
 
 nav{
