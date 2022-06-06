@@ -5,9 +5,19 @@ h1{
     font-size: 150%;
     line-height: 200%;
     background: #b3b3b3;
-
 }
 
+.row-header {
+    margin:0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
 
 header{
     background: #6666;
@@ -41,8 +51,10 @@ summary{
     font-style: normal;
 }
 
-footer{
-    background: #6666; 
+.footer{
+    background: #6666;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
 }
 
 figure{
@@ -61,4 +73,17 @@ section{
 
 p{
     height: 20%;
+}
+
+.jumbotron {
+    padding: 70px 40px 50px 30px;
+    margin: 0px auto;
+    background: #4f6e31;
+    color: floralwhite;
+}
+
+.address {
+    font-size: 80%;
+    margin: 0px;
+    color:#335136
 }
