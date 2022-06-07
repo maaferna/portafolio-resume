@@ -10,6 +10,7 @@ h1{
 .row-header {
     margin:0px auto;
     padding: 0px auto;
+    text-align: left;
 }
 
 .row-content {
@@ -17,6 +18,8 @@ h1{
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 200px;
+    margin-left: 20px;
+    text-align: left;
 }
 
 header{
@@ -76,14 +79,21 @@ p{
 }
 
 .jumbotron {
-    padding: 70px 40px 50px 30px;
+    padding: 80px 40px 80px 40px;
     margin: 0px auto;
     background: #4f6e31;
     color: floralwhite;
 }
 
-.address {
+address {
     font-size: 80%;
     margin: 0px;
     color:#335136
+}
+
+.col-content{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 70%;
 }
