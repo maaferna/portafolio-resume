@@ -1,0 +1,146 @@
+
+.row-header {
+    margin:0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+header{
+    background: #6666;
+    text-align: center;
+}
+
+p{
+    color: rgb(253, 248, 248);
+}
+
+.footer{
+    background: rgba(128, 96, 184, 0.5);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+    clear: both;
+    background: -moz-linear-gradient(top,rgba(128, 96, 184, 0.4));
+    background: -webkit-linear-gradient(rgba(128, 96, 184, 0.4), #8c8cf4);
+}
+
+p{
+    color:rgba(8, 8, 8, 0.949)
+}
+
+footer a{
+    color: rgb(209, 46, 5);
+}
+
+footer i{
+    color: #2421cd;
+}
+
+figure{
+    float: left;
+    background-color: azure;
+    height:100px;
+	clear: both;
+}
+
+table{
+    background-color: aliceblue;
+}
+
+section{
+    background-color: aliceblue;
+    overflow: scroll;
+}
+
+p{
+    height: 20%;
+}
+
+.jumbotron {
+    padding: 80px 40px 80px 40px;
+    margin: 0px auto;
+    background: -moz-linear-gradient(top, #0b4609 0%, #ddf0f6 100%);
+    color: floralwhite;
+}
+
+.address {
+    font-size: 100%;
+    margin: 0px;
+    color:#335136
+}
+
+.col-content{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+
+body{
+	background:#faf7f7;
+    background: -moz-linear-gradient(top, #f2e3e3 0%, #ddf0f6 100%);
+	background: -webkit-linear-gradient(#e1dada 0%, #b8e6f2 100%);
+	background: -o-linear-gradient(#e6d5d5 0%, #caccd7 100%);
+	background: linear-gradient(#e2dada 0%, #d6eef4 100%); 
+	margin:2%;
+    padding: 30px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: rgba(80, 92, 197, 0.4);
+    background: -moz-linear-gradient(top, #c08c8c 0%, #1b3138 100%);
+	background: -webkit-linear-gradient(#948686 0%, #b8e6f2 100%);
+	background: -o-linear-gradient(#e6d5d5 0%, #3c51ee 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+}
+
+section{
+	width:30%;
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
+
+nav li{
+    font-size: 30px;
+    padding: 10px;
+    color:rgba(255,255,255,0.8);
+}
+
+#nav-brand a{
+    color:rgba(255,255,255,0.8);
+    font-size: 40px;
+    padding: 30px;
+    font-style: bold;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+a[href$=".Bio"] {
+    background: #FFFF00;
+}
+a[href$=".Michigan"] {
+    background: #ed5b17;
+}
+
+a[href$=".Davis"] {
+    background: #1336d2;
+}
+
+a[href$=".Wagon"] {
+    background: #3bbbd4;
+}
