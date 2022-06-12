@@ -1,5 +1,5 @@
 h1{
-    color: #4f6e31;
+    color: #769a51;
     font-family: Courier, Impact;
     font-variant: small-caps;
     font-size: 150%;
@@ -9,7 +9,7 @@ h1{
 
 .row-header {
     margin:0px auto;
-    padding: 0px auto;
+    padding: 15px;
     text-align: left;
 }
 
@@ -35,12 +35,6 @@ mark{
     background-color: rgb(255, 249, 240);
 }
 
-nav{
-    font-variant: small-caps;
-    font-size: 150%;
-    font-family: Arial, 'Times New Roman', Times, serif;
-}
-
 h2{
     color: #335136;
     background: #00b7ea;
@@ -54,15 +48,32 @@ summary{
     font-style: normal;
 }
 
-.footer{
+footer{
     background: #6666;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
+    clear: both;
+    background: -moz-linear-gradient(top,rgba(24, 42, 164, 0.4));
+    background: -webkit-linear-gradient(rgba(80, 92, 197, 0.4), #72728c);
+}
+
+footer p{
+    color:rgb(177, 67, 40)
+}
+
+footer a{
+    color: rgb(209, 46, 5);
+}
+
+footer i{
+    color: #2421cd;
 }
 
 figure{
     float: left;
     background-color: azure;
+    height:100px;
+	clear: both;
 }
 
 table{
@@ -96,4 +107,68 @@ address {
     margin-left: 20px;
     margin-bottom: 20px;
     width: 70%;
+}
+
+
+body{
+	background:#B3B3B3;
+    background: -moz-linear-gradient(top, #c08c8c 0%, #1b3138 100%);
+	background: -webkit-linear-gradient(#948686 0%, #b8e6f2 100%);
+	background: -o-linear-gradient(#e6d5d5 0%, #3c51ee 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+	margin:2%;
+    padding: 30px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: rgba(80, 92, 197, 0.4);
+    background: -moz-linear-gradient(top, #c08c8c 0%, #1b3138 100%);
+	background: -webkit-linear-gradient(#948686 0%, #b8e6f2 100%);
+	background: -o-linear-gradient(#e6d5d5 0%, #3c51ee 100%);
+	background: linear-gradient(#666666 0%, #00b7ea 100%); 
+}
+
+section{
+	width:30%;
+	margin-right: 2%;
+	display:inline-block;
+	float:left;
+}
+
+nav li{
+    font-size: 30px;
+    padding: 10px;
+    color:rgba(255,255,255,0.8);
+}
+
+#nav-brand a{
+    color:rgba(255,255,255,0.8);
+    font-size: 40px;
+    padding: 30px;
+    font-style: bold;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+a[href$=".Bio"] {
+    background: #FFFF00;
+}
+a[href$=".Michigan"] {
+    background: #ed5b17;
+}
+
+a[href$=".Davis"] {
+    background: #1336d2;
+}
+
+a[href$=".Wagon"] {
+    background: #3bbbd4;
 }
