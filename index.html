@@ -11,6 +11,8 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     </head>
 
     <body>
@@ -24,22 +26,36 @@
                 </div>  
                 <div class="collapse navbar-collapse" id="Navbar">  
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">Home<a class="nav-link" href="#"></a></li>
+                        <li class="nav-item active"><span class="fa fa-home"></span>Home<a class="nav-link" href="#"></a></li>
                         <li class="nav-item">Resume<a class="nav-link" href="./resume.html"></a></li>
-                        <li class="nav-item">Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
-                        <li class="nav-item">Skills<a class="nav-link" href=".skills.html"></a></li>
-                        <li class="nav-item">Contact<a class="nav-link"></a></li>
+                        <li class="nav-item"><span class="fa fa-info"></span>Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
+                        <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href=".skills.html"></a></li>
+                        <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link"></a></li>
                     </ul>
                 </div>  
             </div>
         </nav>
         <br>
         <header class="jumbotron">
-            <div class="row row-header">
-                <div class="col-12 align-self-center">
-                    <h1 align="center">
-                        My Resume
-                    </h1>
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12 align-self-center">
+                        <h1 align="center">
+                            My Resume
+                        </h1>
+                    </div>
+                </div>
+    
+                <div class="row row-header">
+                    <div class="col-4 px-0">
+                        <img src="image/foto_presentation.jpg" alt="Photo presentation" class="img-fluid">
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            Profesional con 9 años de experiencia laboral liderando equipos de trabajo en plantas industriales,  especializado en temas de planificación de la producción, meta- heurística, gestión de operaciones, eficiencia operacional, optimización y simulación de procesos, mejora continua (filosofía Lean Manufacturing), análisis estadístico, desarrollo de proyectos, minería de datos y mantención de equipos industriales.
+                            Desarrollador de web y analista de datos con conocimiento en Python, Django, Ruby On Rails, SQL, AWS, JavaScript, CSS, HTML.   
+                        </p>
+                    </div>
                 </div>
             </div>
         </header>
@@ -47,12 +63,6 @@
         <main>  
             <div class="container">
                 <h2>Work Experience</h2>
-                <div class="row row-content">
-                    <p>
-                            Profesional con 9 años de experiencia laboral liderando equipos de trabajo en plantas industriales,  especializado en temas de planificación de la producción, meta- heurística, gestión de operaciones, eficiencia operacional, optimización y simulación de procesos, mejora continua (filosofía Lean Manufacturing), análisis estadístico, desarrollo de proyectos, minería de datos y mantención de equipos industriales.
-                            Desarrollador de web y analista de datos con conocimiento en Python, Django, Ruby On Rails, SQL, AWS, JavaScript, CSS, HTML.   
-                    </p>
-                </div>
                 <div class="row row-content">
                     <table border="1">
                         <tr><th>Puesto</th><th>Funciones</th><th>Fecha</th></tr>
@@ -94,33 +104,31 @@
 
             <div class="container">
                 <h2>Achievements</h2>
-                <div class="row align-items-center">
-                    <div class="col-12 col-sm-3">
-                            Progress in this course(100%)<progress value="98" max="100"></progress><br>                    
-                        </div>
-                        <div class="col-12 col-sm-4">
-                            Progress in the Specialization capstone(20%)<progress value="24" max="100"></progress><br>    
-                        </div>
+                <div class="row">
+                    <h5>Current status of progress in the following courses</h5>
+                    <div class="row">
                         <div class="col-12 col-sm-3">
-                            Progress in life goals(56%)<progress value="50" max="100"></progress><br>
-                        </div>            
-                    </div>
+                            Front-End Web UI Frameworks and Tools: Bootstrap 4<progress id="percent-loaded" value="30" max="100">30 %</progress>                   
+                       </div>
+                       <div class="col-12 col-sm-4">
+                               Progress in the Specialization capstone(20%)<progress value="24" max="100"></progress><br>    
+                       </div>
+                       <div class="col-12 col-sm-3">
+                               Progress in life goals(56%)<progress value="50" max="100"></progress><br>
+                       </div>            
+                    </div>  
                 </div>
             </div>
 
             <div class="container">
                 <h2>Skills</h2>
-                <div class="row-content">
+                <div class="row">
                     <figure>
-                        <img src="image/python-logo.png"
-                            alt="Python" width="100">
-                        <img src="image/django-logo.png"
-                            alt="Python" width="100">
-        
+                        <img src="image/python-logo.png" alt="Python" width="100">
+                        <img src="image/django-logo.png"alt="Python" width="100">
                         <figcaption>Official Logos</figcaption>
                     </figure>
                 </div>
-   
             </div>
             
             <h1>About Me</h1>
@@ -148,7 +156,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div col-4 offset-1 col-sm-2>
+                    <div class="col-4 col-sm-2">
                         <h5>Links</h5>
                         <ul>
                             <li><a href="./index.html">Home</a></li>
@@ -156,9 +164,19 @@
                             <li><a href="./portafolio.html">Portafolio</a></li>
                             <li><a href="./skills.html">Skills</a></li>
                         </ul>
+                    </div>
+                    <div class="col col-sm col-md">
+                        <h5>My Address</h5>
+                        <address>
+                          Parcela 10, Km camino Chillán - Huape<br>
+                            Chillán, Ñuble<br>
+                          Chillán<br>
+                          <i class="fa fa-phone"></i>: +56 9 5629 1334<br>
+                          <i class="fa fa-envelope"></i>: <a href="maaferna@gmail.com">maaferna@gmail.com</a>
+                       </address>
 
                     </div>
-
+            
                 </div>
                 <div class="container">
                     <div class="row offset-1">
