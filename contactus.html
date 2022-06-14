@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio Website</title>
+        <script src="https://kit.fontawesome.com/82f95dc438.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    </head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-center">
+        <div class="container">
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nav-brand">
+                <a class="navbar-brand navbar-light mr-auto" href="#">Marco A. Parra</a>
+            </div>  
+            <div class="collapse navbar-collapse" id="Navbar">  
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><span class="fa fa-home"></span>Home<a class="nav-link" href="./index.html"></a></li>
+                    <li class="nav-item">Resume<a class="nav-link" href="./resume.html"></a></li>
+                    <li class="nav-item"><span class="fa fa-info"></span>Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
+                    <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href=".skills.html"></a></li>
+                    <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link" href="./contactus.html"></a></li>
+                </ul>
+            </div>  
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact Us</li>
+            </ol>
+            <div class="col-12">
+               <h3>Contact Us</h3>
+               <hr>
+            </div>
+        </div>
+
+        <div class="row row-content">
+           <div class="col-12">
+              <h3>Location Information</h3>
+           </div>
+            <div class="col-12 col-sm-4 offset-sm-1">
+                <h5>My Address</h5>
+                <address>
+                  Parcela 10, Km camino Chillán - Huape<br>
+                    Chillán, Ñuble<br>
+                  Chillán<br>
+                  <i class="fa fa-phone"></i>: +56 9 5629 1334<br>
+                  <i class="fa fa-envelope"></i>: <a href="maaferna@gmail.com">maaferna@gmail.com</a>
+               </address>
+            </div>
+            <div class="col-12 col-sm-6 offset-sm-1">
+                <h5>Map of our Location</h5>
+            </div>
+            <div class="col-12 col-sm-11 offset-sm-1">
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-primary" href="tel:852112345678"><i class="fa fa-phone"></i>Call</a>
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i>Skype</a>
+                    <a role="button" class="btn btn-success" href="malito:confusion@food.net"><i class="fa fa-envelope-o"></i>Email</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content">
+           <div class="col-12">
+              <h3>Send us your Feedback</h3>
+           </div>
+            <div class="col-12 col-md-9">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname"
+                            placeholder="First Name">
+                        </div>                        
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname"
+                            placeholder="Last Name">
+                        </div>  
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode"
+                            placeholder="Area Code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum"
+                            placeholder="Tel. Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid"
+                            placeholder="email@example.cl">
+                        </div>  
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6" offset-md-2>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" 
+                                    name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong></label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email.</option>
+                            </select>
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback"
+                                rows="12"></textarea>                    
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">
+                                Send Feedback
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+             <div class="col-12 col-md">
+            </div>
+       </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <p>
+                        Marco Antonio Fernández Parra
+                    </p>
+                </div>
+                <div class="col col-sm col-md">
+                    <p>
+                        ·Magíster en Ingeniería Industrial · Ingeniero Civil Industrias de La Madera
+                    </p>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-sm-3 offset-2">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./resume.html">Resume</a></li>
+                        <li><a href="./portafolio.html">Portafolio</a></li>
+                        <li><a href="./skills.html">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-sm-3">
+                    <h5>My Address</h5>
+                    <address>
+                      Parcela 10, Km camino Chillán - Huape<br>
+                        Chillán, Ñuble<br>
+                      Chillán<br>
+                      <i class="fa fa-phone"></i>: +56 9 5629 1334<br>
+                      <i class="fa fa-envelope"></i>: <a href="maaferna@gmail.com">maaferna@gmail.com</a>
+                   </address>
+                </div>
+                <div class="col col-sm">
+                    <a href="https://www.linkedin.com/in/marco-antonio-parra-82999337/" aria-label="Linkedin"><i class="fab fa-linkedin fa-5x"></i></a>
+                    <a href="https://github.com/maaferna"><i class="fab fa-github fa-5x"></i></a>                                              
+                </div>        
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <p>This page was created by <strong>Marco Antonio Parra</strong>. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-center">
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <div class="container">
                 <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
@@ -29,8 +29,8 @@
                         <li class="nav-item active"><span class="fa fa-home"></span>Home<a class="nav-link" href="#"></a></li>
                         <li class="nav-item">Resume<a class="nav-link" href="./resume.html"></a></li>
                         <li class="nav-item"><span class="fa fa-info"></span>Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
-                        <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href=".skills.html"></a></li>
-                        <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link"></a></li>
+                        <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href="./skills.html"></a></li>
+                        <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link" href="./contactus.html"></a></li>
                     </ul>
                 </div>  
             </div>
@@ -60,29 +60,70 @@
             </div>
         </header>
 
-        <main>  
+        <main>
             <div class="container">
-                <h2>Work Experience</h2>
-                <div class="row row-content">
-                    <table border="1">
-                        <tr><th>Puesto</th><th>Funciones</th><th>Fecha</th></tr>
-                        <tr>
-                            <td>Ingeniero de Proyecto e Investigador (Instituto Forestal, INFOR)</td>
-                            <td>Diseñar e implementar asistencias técnicas en pequeñas y medianas en la industria del aserrío.
-                                Realizar estudio para el levantamiento de  información de la industria del aserrío.</td>
-                            <td>2019-01 2019-11</td>
-                        </tr>
-                        <tr>   
-                            <td>Ingeniero de Proyecto (Universidad de Concepción, UDEC)</td>  
-                            <td>Diseñar e implementar asistencias técnicas en pequeñas y medianas en la industria manufacturera.</td>
-                            <td>2018-01 2019-01</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+                <div class="table-responsive">
+                    <h2>Work Experience</h2>
+                    <div class="table table-striped">
+                        <table border="thead-dark">
+                            <tr>
+                                <th>Job positions</th>
+                                <th>Institutions/Company</th>
+                                <th>Jobs Funtions</th>
+                                <th>Date</th>
+                            </tr>
+                            <tr>
+                                <td>Ingeniero de Proyecto e Investigador</td>
+                                <td>Instituto Forestal, INFOR</td>
+                                <td>Diseñar e implementar asistencias técnicas en pequeñas y medianas en la industria del aserrío.
+                                    Realizar estudio para el levantamiento de  información de la industria del aserrío.</td>
+                                <td>2019-01 2019-11</td>
+                            </tr>
+                            <tr>   
+                                <td>Ingeniero de Proyecto</td>  
+                                <td>Universidad de Concepción, UDEC</td>
+                                <td>Diseñar e implementar asistencias técnicas en pequeñas y medianas en la industria manufacturera.</td>
+                                <td>2018-01 2019-01</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>  
+            </div>  
+            
             
             <div class="container">
-                <h2>Education</h2>
+                <h2>Formal Education</h2>
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <div class="card">
+                            <h3 class="card-header bg-primary text-white">Civil Engineer Wood Industries</h3>
+                            <div class="card-body">
+                                <dl class="row">
+                                    <dt class="col-6">Degree Year</dt>
+                                    <dd class="col-6">2010</dd>
+                                    <dt class="col-6">Institution</dt>
+                                    <dd class="col-6">University BioBio, Chile</dd>
+                                    <dt class="col-6">Web Page</dt>
+                                    <dd class="col-6"><a href="https://ubiobio.cl/admision/todas_las_carreras/8/Ingenieria_Civil_en_Industrias_de_la_Madera/">visit</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6">
+                        <div class="card">
+                            <h3 class="card-header bg-primary text-white">Master in Industrial Engineering</h3>
+                            <div class="card-body">
+                                <dl class="row">
+                                    <dt class="col-6">Degree Year</dt>
+                                    <dd class="col-6">2019</dd>
+                                    <dt class="col-6">Institution</dt>
+                                    <dd class="col-6">University BioBio, Chile</dd>
+                                    <dt class="col-6">Web Page</dt>
+                                    <dd class="col-6"><a href="http://magister.industrial.ubiobio.cl/">visit</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                </div>
                 <div class="row">       
                     <ul class="list-unstyled">
                         <li><Magister Ingeniería Industrial</li>
@@ -92,16 +133,18 @@
                     </ul>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <ol class="col-12 breadcrumb">
-                        <li class="breadcrumb-item"><a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization, University Michigan</a></li>
-                        <li class="breadcrumb-item"><a href="https://www.coursera.org/learn/python-data-analysis">Applied Data Science with Python Specialization,University Michigan</a></li>
-                    </ol>
 
+            <div class="container">
+                <h2>Profesional Certificate & Specializations</h2>
+                <div class="container">
+                    <div class="row">
+                        <ol class="col-12 breadcrumb">
+                            <li class="breadcrumb-item"><a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization, University Michigan</a></li>
+                            <li class="breadcrumb-item"><a href="https://www.coursera.org/learn/python-data-analysis">Applied Data Science with Python Specialization,University Michigan</a></li>
+                        </ol>
+                    </div>
                 </div>
             </div>
-
             <div class="container">
                 <h2>Achievements</h2>
                 <div class="row">
@@ -156,7 +199,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4 col-sm-2">
+                    <div class="col-4 col-sm-3 offset-2">
                         <h5>Links</h5>
                         <ul>
                             <li><a href="./index.html">Home</a></li>
@@ -165,7 +208,7 @@
                             <li><a href="./skills.html">Skills</a></li>
                         </ul>
                     </div>
-                    <div class="col col-sm col-md">
+                    <div class="col-4 col-sm-3">
                         <h5>My Address</h5>
                         <address>
                           Parcela 10, Km camino Chillán - Huape<br>
@@ -174,18 +217,18 @@
                           <i class="fa fa-phone"></i>: +56 9 5629 1334<br>
                           <i class="fa fa-envelope"></i>: <a href="maaferna@gmail.com">maaferna@gmail.com</a>
                        </address>
-
                     </div>
-            
-                </div>
-                <div class="container">
-                    <div class="row offset-1">
+                    <div class="col col-sm">
                         <a href="https://www.linkedin.com/in/marco-antonio-parra-82999337/" aria-label="Linkedin"><i class="fab fa-linkedin fa-5x"></i></a>
-                        <a href="https://github.com/maaferna"><i class="fab fa-github fa-5x"></i></a>                                              </div>        
+                        <a href="https://github.com/maaferna"><i class="fab fa-github fa-5x"></i></a>                                              
+                    </div>        
                     </div>
                 </div>
+
                 <div class="row justify-content-center">
-                    This page was created by <mark>Marco Antonio Parra</mark>. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a>.
+                    <div class="col-12 col-sm-6">
+                        <p>This page was created by <strong>Marco Antonio Parra</strong>. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a></p>
+                    </div>
                 </div>
             </div>
             
