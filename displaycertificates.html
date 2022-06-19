@@ -16,46 +16,45 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-            <img src="image/perfil.jpeg" width="5%" class="bg-info rounded-circle">
-            <div class="container">
-                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="nav-brand">
-                    <a class="navbar-brand navbar-light mr-auto" href="#">Marco A. Parra</a>
-                </div>  
-                <div class="collapse navbar-collapse" id="Navbar">  
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><span class="fa fa-home"></span>Home<a class="nav-link" href="#"></a></li>
-                        <li class="nav-item">Resume<a class="nav-link" href="./resume.html"></a></li>
-                        <li class="nav-item"><span class="fa fa-info"></span>Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
-                        <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href="./skills.html"></a></li>
-                        <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link" href="./contactus.html"></a></li>
-                    </ul>
-                </div>  
-            </div>
-        </nav>
-
         <header class="jumbotron">
-            <div class="container">
-                <div class="row row-header">
-                    <div class="col-12 align-self-center">
-                        <h1 align="center">
-                            My Certificates
-                        </h1>
-                    </div>
+            <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                <img src="image/perfil.jpeg" width="5%" class="bg-info rounded-circle">
+                <div class="container">
+                    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="nav-brand">
+                        <a class="navbar-brand navbar-light mr-auto" href="#">Marco A. Parra</a>
+                    </div>  
+                    <div class="collapse navbar-collapse" id="Navbar">  
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><span class="fa fa-home"></span>Home<a class="nav-link" href="#"></a></li>
+                            <li class="nav-item">Resume<a class="nav-link" href="./resume.html"></a></li>
+                            <li class="nav-item"><span class="fa fa-info"></span>Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
+                            <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href="./skills.html"></a></li>
+                            <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link" href="./contactus.html"></a></li>
+                        </ul>
+                    </div>  
                 </div>
+            </nav>
+
+            <div class="container">
+                <div class="row row-header align-content-center">
+                    <h1>My Certificates</h1>
+                </div>
+                <div class="row row-header">
+                    <p style="font-size: 150%">These are some of my specialization and professional certificates, in the field web development and data science</p>
+                </div>         
             </div>
         </header>
 
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <embed src="file/Python for Everybody.pdf" width="500" height="375" type="application/pdf">
+                    <embed class="pdf_display" src="file/Python for Everybody.pdf" width="500" height="375" type="application/pdf">
                 </div>
                 <div class="col">
-                    <embed src="file/Applied Data Science with Python Specialization.pdf" width="500" height="375" type="application/pdf">
+                    <embed class="pdf_display" src="file/Applied Data Science with Python Specialization.pdf" width="500" height="375" type="application/pdf">
                 </div>
                 
             </div>
@@ -97,6 +96,7 @@
                        </address>
                     </div>
                     <div class="col col-sm">
+                        <h5>Visit My Social Networks</h5>
                         <a href="https://www.linkedin.com/in/marco-antonio-parra-82999337/" aria-label="Linkedin"><i class="fab fa-linkedin fa-5x"></i></a>
                         <a href="https://github.com/maaferna"><i class="fab fa-github fa-5x"></i></a>                                              
                     </div>        
@@ -105,7 +105,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-12 col-sm-6">
-                        <p>This page was created by <strong>Marco Antonio Parra</strong>. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a></p>
+                        <p>This page was created by <span class="badge badge-pill badge-secondary">Marco Antonio Parra</span>. To learn more about web design, visit <a href="http://www.intro-webdesign.com/">Intro to Web Design</a></p>
                     </div>
                 </div>
             </div>

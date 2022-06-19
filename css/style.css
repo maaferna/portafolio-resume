@@ -4,9 +4,10 @@
 }
 
 .row-header h1 {
-    font-size: 50px;
+    font-size: 300%;
     text-align: left;
     font-weight: bold;
+    padding-top: 10%;
 }
 
 .row-content {
@@ -14,6 +15,7 @@
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
+    text-align: center;
 }
 
 .row-content p {
@@ -49,6 +51,7 @@ footer a{
 footer i{
     color: #2421cd;
 }
+
 
 figure{
     float: left;
@@ -139,3 +142,13 @@ a[href$=".Wagon"] {
     padding-left: 6%;
     display: inline-block;
 }
+
+
+.pdf_display {
+    background-size: cover;
+    box-shadow: 0 0 140px 10px rgba(0,0,0,.5);
+    position: relative;
+    height: 300px;
+    width: 500px;
+  }
+
