@@ -17,49 +17,50 @@
 
     <body>
         <header class="jumbotron">
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-            <img src="image/perfil.jpeg" width="5%" class="bg-info rounded-circle">
-            <div class="container">
-                <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="nav-brand">
-                    <a class="navbar-brand navbar-light mr-auto" href="#">Marco A. Parra</a>
-                </div>  
-                <div class="collapse navbar-collapse" id="Navbar">  
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><span class="fa fa-home"></span>Home<a class="nav-link" href="#"></a></li>
-                        <li class="nav-item">Resume<a class="nav-link" href="./resume.html"></a></li>
-                        <li class="nav-item"><span class="fa fa-info"></span>Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
-                        <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href="./skills.html"></a></li>
-                        <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link" href="./contactus.html"></a></li>
-                    </ul>
-                </div>  
-            </div>
-        </nav>
+            <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                    <div class="col-11">
+                        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#Navbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="nav-brand">
+                            <a class="navbar-brand navbar-light" href="#">Marco A. Parra</a>
+                        </div>  
+                        <div class="collapse navbar-collapse" id="Navbar">  
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active"><span class="fa fa-home"></span>Home<a class="nav-link" href="#"></a></li>
+                                    <li class="nav-item">Resume<a class="nav-link" href="./resume.html"></a></li>
+                                    <li class="nav-item"><span class="fa fa-info"></span>Portafolio<a class="nav-link" href="./portafolio.html"></a></li>
+                                    <li class="nav-item"><span class="fa fa-list"></span>Skills<a class="nav-link" href="./skills.html"></a></li>
+                                    <li class="nav-item"><span class="fa-solid fa-address-card"></span>Contact<a class="nav-link" href="./contactus.html"></a></li>
+                                </ul>
+                        </div>
+                    </div>                    
+                    <div class="col">
+                        <img src="image/perfil.jpeg" class="avatar">
+                    </div>  
+            </nav>
 
-        
-        <div class="container">
-            <div class="row row-header">
-                <div class="col-12 align-self-center">
-                    <h1 align="center">
-                        My Resume
-                    </h1>
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12 align-self-center">
+                        <h1 align="center">
+                            My Resume
+                        </h1>
+                    </div>
                 </div>
-            </div>
     
-            <div class="row row-header">
-                <div class="col-4 px-0">
-                    <img src="image/foto_presentation.jpg" alt="Photo presentation" class="img-fluid">
-                </div>
-                <div class="col-8">
-                    <p>
-                        Profesional con 9 años de experiencia laboral liderando equipos de trabajo en plantas industriales,  especializado en temas de planificación de la producción, meta- heurística, gestión de operaciones, eficiencia operacional, optimización y simulación de procesos, mejora continua (filosofía Lean Manufacturing), análisis estadístico, desarrollo de proyectos, minería de datos y mantención de equipos industriales.
-                        Desarrollador de web y analista de datos con conocimiento en Python, Django, Ruby On Rails, SQL, AWS, JavaScript, CSS, HTML.   
-                    </p>
+                <div class="row row-header">
+                    <div class="col-4 px-0">
+                        <img src="image/foto_presentation.jpg" alt="Photo presentation" class="img-fluid">
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            Profesional con 9 años de experiencia laboral liderando equipos de trabajo en plantas industriales,  especializado en temas de planificación de la producción, meta- heurística, gestión de operaciones, eficiencia operacional, optimización y simulación de procesos, mejora continua (filosofía Lean Manufacturing), análisis estadístico, desarrollo de proyectos, minería de datos y mantención de equipos industriales.
+                            Desarrollador de web y analista de datos con conocimiento en Python, Django, Ruby On Rails, SQL, AWS, JavaScript, CSS, HTML.   
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
         </header>
 
         <main>
@@ -96,9 +97,9 @@
             <div class="container">
                 <h2>Formal Education</h2>
                 <div class="row">
-                    <div class="col-6 col-sm-6">
+                    <div class="col col-sm-6">
                         <div class="card">
-                            <h3 class="card-header bg-primary text-white">Civil Engineer Wood Industries</h3>
+                            <h3 class="card-header">Civil Engineer Wood Industries</h3>
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-6">Degree Year</dt>
@@ -111,9 +112,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-sm-6">
+                    <div class="col col-sm-6">
                         <div class="card">
-                            <h3 class="card-header bg-primary text-white">Master in Industrial Engineering</h3>
+                            <h3 class="card-header">Master in Industrial Engineering</h3>
                             <div class="card-body">
                                 <dl class="row">
                                     <dt class="col-6">Degree Year</dt>
@@ -292,11 +293,62 @@
                     </figure>
                 </div>
             </div>
+
+            <div class="container">
+                <h2>My Portfolio</h2>
+
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="codiohead">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#codio">
+                                Advanced Django: Mastering Django and Django Rest Framework Specialization <small>Django, Python, HTML, CSS</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse show" id="codio" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Mastering Django and the Django Rest Framework. Create a blog an an accompanying API using industry-standard tools and software packages without installing anything!.</p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="">Visit this project</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="">Redirect to source code</a>    
+                                    </div>
+                                </div>                                                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="demizonahead">
+                        <h3 class="mb-0">
+                            <a data-toggle="collapse" data-target="#demizona">
+                                Demizona <small>Ruby On Rails, HTML, CSS, Heroku, Bootstrap</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse show" id="demizona" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Demizona E-commerce plataform project!.</p>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="https://demizona.herokuapp.com/">Visit this project</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="">Redirect to source code</a>    
+                                    </div>
+                                </div>                                                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             
             <div class="container">
-				<summary>My Childhood</summary>
+				<summary>About Me</summary>
 				<p><mark>I love practice sports, specially football and running. I grew up in Chillán, Chile. I like to learn new things, especially programming lenguague.</mark></p>
 			</div>
         </main>

@@ -158,3 +158,22 @@ a[href$=".Wagon"] {
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.avatar {
+    height: 3em;
+    width: 3em;
+    margin-top: 8px;
+    border-radius: 5.0em;
+    margin-right: 1em;
+    margin-bottom: 8px;
+  }
+
+.card-body {
+      background-color: rgba(193, 189, 200, 0.2);
+      box-shadow: 0 0 140px 10px rgba(251, 226, 226, 0.5);
+      color:rgba(1, 2, 13, 0.803);
+  }
+
+.card-header {
+    background-color: rgba(106, 25, 246, 0.4);
+}
