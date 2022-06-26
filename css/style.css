@@ -177,3 +177,15 @@ a[href$=".Wagon"] {
 .card-header {
     background-color: rgba(106, 25, 246, 0.4);
 }
+
+.carousel-item {
+    align-items: center;
+}
+
+
+.carousel-item img {
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
+}
+
