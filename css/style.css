@@ -187,5 +187,16 @@ a[href$=".Wagon"] {
     position: relative;
     margin-left: 25%;
     width: 50%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
+
+
+#mycarousel span {
+    height: 30%;
+    top: 25%;
+    width: 30%;
+    background-color:rgba(240, 240, 242, 0.9);
+}
+
 
