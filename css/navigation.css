@@ -139,28 +139,6 @@ p {
     margin-top: 0;
 }
 
-.sidebar-wrapper .education-container .time {
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 500;
-    margin-bottom: 0px;
-}
-
-.sidebar-wrapper .languages-container .lang-desc {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.sidebar-wrapper .languages-list {
-    margin-bottom: 0;
-}
-
-.sidebar-wrapper .languages-list li {
-    margin-bottom: 10px;
-}
-
-.sidebar-wrapper .languages-list li:last-child {
-    margin-bottom: 0;
-}
-
 .sidebar-wrapper .interests-list {
     margin-bottom: 0;
 }
@@ -260,6 +238,10 @@ p {
     margin-bottom: 15px;
 }
 
+.main-wrapper .projects-section .item {
+    margin-bottom: 15px;
+}
+
 .skillset .item {
     margin-bottom: 15px;
     overflow: hidden;
@@ -345,4 +327,86 @@ used for profile image
     border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    align-self: center;
 }
+
+
+#mycarousel span {
+    height: 30%;
+    top: 25%;
+    width: 30%;
+    background-color:rgba(240, 240, 242, 0.9);
+}
+
+/*Set the table color, border, and spacing...*/
+table.cal{
+	color:#06425C;
+	border-spacing: 0;
+	border: 3px solid rgba(76, 172, 157,0.9);
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 25px 25px;
+}
+/*Alternate colors between even and odd weeks*/
+tr:nth-child(odd) {
+	background: #F2F2F2;
+}
+tr:nth-child(even) {
+	background: #CDBB79;
+}
+
+/*To curve the bottom, we need to curve the
+row and the element.  And each element needs to 
+curve a different corner.*/
+tr:last-child{
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 25px 25px;	
+}
+tr:last-child>td:first-child {
+	-webkit-border-radius: 0 0 0 25px;
+	border-radius: 0 0 0 25px;	
+}
+
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 25px 0;
+	border-radius: 0 0 25px 0;	
+}
+
+
+/*Format common heading and element attributes*/
+.cal th, .cal td{
+	margin: 2px;
+	padding-bottom: 2px;
+}
+
+/*Format the table headings*/
+th{
+	text-align: center;
+	background: #FFFFFF;
+}
+
+/*Set the size and alignment for elements*/
+.cal td{
+	width:75px;
+	height:75px;
+	vertical-align:top;
+    border-left: rgba(76, 172, 157,0.9);
+}
+
+/*Use a background image*/
+.r1{
+	padding:0;
+	margin: 0;
+	background-color:rgba(76, 172, 157,0.2);
+	color:rgba(0, 0, 0, 0.5);
+    border-spacing: 0;	
+}
+
+.r2{
+	padding:0;
+	margin: 0;
+	background-color:rgba(76, 172, 157,0.25);
+	color:rgba(0, 0, 0, 0.5);
+    border-spacing: 0;
+  
+}
+
