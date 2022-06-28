@@ -110,7 +110,6 @@ nav li{
 #nav-brand a{
     color:rgba(255,255,255,0.8);
     font-size: 20px;
-    padding: 30px;
     font-weight: bold;
 }
 
@@ -123,20 +122,6 @@ ul{
 }
 
 
-a[href$=".Bio"] {
-    background: #FFFF00;
-}
-a[href$=".Michigan"] {
-    background: #ed5b17;
-}
-
-a[href$=".Davis"] {
-    background: #1336d2;
-}
-
-a[href$=".Wagon"] {
-    background: #3bbbd4;
-}
 
 .breadcrumb {
     padding-left: 6%;
@@ -199,4 +184,51 @@ a[href$=".Wagon"] {
     background-color:rgba(240, 240, 242, 0.9);
 }
 
-
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding-left: 15px;
+    transition: .5s background-color;
+  }
+  
+  nav a:hover {
+    background-color: #74e9e9;
+    color: #444;
+  }
+  
+  nav a.active {
+    background-color: rgb(246, 229, 229);
+    color: #444;
+    cursor: default;
+  }
+  
+  /* Sub Menus */
+  nav li li {
+    font-size: .8em;
+    background-color: #00b7ea;
+  }
+  
+  nav > ul > li {
+     text-align: center;
+  }
+  
+  nav > ul > li > a {
+      padding-left: 0;
+  }
+  
+  /* Sub Menus */
+  nav li ul {
+      position: absolute;
+      display: none;
+      width: inherit;
+  }
+  
+  nav li:hover ul {
+     display: block;
+  }
+  
+  nav li ul li {
+     display: block;
+   }
+  
