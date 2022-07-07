@@ -157,26 +157,29 @@
                                     <div class="carousel-item">
                                         <img class="d-block img-fluid" src="./image/Google IT Automation with Python specialization.png" alt="Applied Data Science with Python, U. Michigan">
                                     </div>
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                                    </ol>
+                                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    </a>
                                 </div>
-                                <ol class="carousel-indicators">
-                                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#mycarousel" data-slide-to="1"></li>
-                                    <li data-target="#mycarousel" data-slide-to="2"></li>
-                                </ol>
-                                <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                </a>
-                                <div class="btn-group" id="carouselButton">
+                                <button class="btn btn-danger btn-sm" id="carouselButton">
+                                    <span id="carousel-button-icon" class="fa fa-pause"></span>
+                                </button>    
+                                <!-- <div class="btn-group" id="carouselButton">
                                     <button class="btn btn-danger btn-sm" id="carousel-pause">
                                         <span class="fa fa-pause"></span>
                                     </button>
                                     <button class="btn btn-danger btn-sm" id="carousel-play">
                                         <span class="fa fa-play"></span>
                                     </button>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -459,6 +462,25 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script>
             $(document).ready(function() {
+                $('#mycarousel').carousel({ interval: 2000});
+                $('#carouselButton').click(function() {
+                    if ($('#carouselButton').children('span').hasClass('fa-pause')){
+                        $('#mycarousel').carousel('pause');
+                        $('#carouselButton').children('span').removeClass('fa-pause');
+                        $('#carouselButton').children('span').addClass('fa-play');
+                    }
+                    else if ($('#carouselButton').children('span').hasClass('fa-play')){
+                        $('#mycarousel').carousel('cycle');
+                        $('#carouselButton').children('span').removeClass('fa-play');
+                        $('#carouselButton').children('span').addClass('fa-pause');
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
+
+/*             $(document).ready(function() {
                 $('#mycarousel').carousel( { interval:8000 } );
                 $('#carousel-pause').click(function() {
                     $('#mycarousel').carousel('pause');
@@ -466,7 +488,4 @@
                 $('#carousel-play').click(function() {
                     $('#mycarousel').carousel('cycle');
                 });
-            })
-        </script>
-    </body>
-</html>
+            }) */
