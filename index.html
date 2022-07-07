@@ -143,7 +143,7 @@
 
             <div class="container">
                 <h2>Profesional Certificate & Specializations</h2>
-                <div class="container">
+                <div class="container" style="background-color: rgba(185, 188, 190, 0.1);">
                     <div class="row">
                         <div class="col">
                             <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
@@ -169,123 +169,134 @@
                                 <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 </a>
+                                <div class="btn-group" id="carouselButton">
+                                    <button class="btn btn-danger btn-sm" id="carousel-pause">
+                                        <span class="fa fa-pause"></span>
+                                    </button>
+                                    <button class="btn btn-danger btn-sm" id="carousel-play">
+                                        <span class="fa fa-play"></span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-
-                <div class="row row-content align-items-center" style="border-bottom: 10px solid rgba(248, 243, 243, 0.3); background: rgba(99, 190, 235, 0.1)">
-                    <div class="col col-sm order-sm-first col-md">
-                        <div class="media">
-                            <embed class="d-flex mr3 img-thumbnail align-self-center"
-                            src="file/Python for Everybody.pdf" alt="pythonforeverybody">
-                            <div class="media-body">
-                                <h2 class="mt-9" style="margin:10px">Python for Everybody</h2>
-                                <p class="d-none d-sm-block" style="margin:10px">This Specialization builds on the success of the Python for
-                                    Everybody course and will introduce fundamental programming
-                                    concepts including data structures, networked application
-                                    program interfaces, and databases, using the Python
-                                    programming language. In the Capstone Project, you’ll use the
-                                    technologies learned throughout the Specialization to design and
-                                    create your own applications for data retrieval, processing, and
-                                    visualization.</p>
-                                <div class="row" style="margin:10px">
-                                    <ol class="col-8 breadcrumb" >
-                                        <li class="breadcrumb-item"><a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization, University Michigan</a></li>
-                                    </ol>
-                                    <ol class="col-4 breadcrumb" >
-                                        <li class="breadcrum-item"><a href="./displaycertificates.html" >Display my Certificates</li>
-                                    </ol>
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="row">
-                            <h5 style="color: rgba(20, 6, 6, 0.8); text-decoration: none;">More information about this specialization</h3>
-                            <ul class="nav nav-tabs">
-                                <li nav-item>
-                                    <a class="nav-link active" href="#PythonforEverybodyC1" role="tab" data-toggle="tab">
-                                        Using Python to Access Web Data</a>                               
-                                </li>
-                                <li nav-item>
-                                    <a class="nav-link" href="#PythonforEverybodyC2" role="tab" data-toggle="tab">
-                                        Python Data Structures</a>
-                                </li>
-                                <li nav-item>
-                                    <a class="nav-link" href="#PythonforEverybodyC3" role="tab" data-toggle="tab">
-                                        Capstone: Retrieving, Processing, and Visualizing Data with Python</a>
-                                </li>
-                                <li nav-item>
-                                    <a class="nav-link" href="#PythonforEverybodyC4" role="tab" data-toggle="tab">
-                                        Using Databases with Python</a>
-                                </li>
-                                <li nav-item>
-                                    <a class="nav-link" href="#PythonforEverybodyC5" role="tab" data-toggle="tab">
-                                        Programming for Everybody (Getting Started with Python)</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade show active" id="PythonforEverybodyC1">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="d-none d-sm-block">This course will show how one can treat the Internet as a source of data.  We will scrape, parse, and read web data as well as access data using web APIs.  We will work with HTML, XML, and JSON data formats in Python.  This course will cover Chapters 11-13 of the textbook “Python for Everybody”. To succeed in this course, you should be familiar with the material covered in Chapters 1-10 of the textbook and the first two courses in this specialization.  These topics include variables and expressions, conditional execution (loops, branching, and try/except), functions, Python data structures (strings, lists, dictionaries, and tuples), and manipulating files.  This course covers Python 3.</p>
-                                        </div>
-                                        <div class="col">
-                                            <embed class="d-flex mr3 img-thumbnail"
-                                            src="file/PythonforEverybody/Using Python to Access Web Data.pdf" alt="pythonforeverybodyc1"> 
-                                        </div>
-                                    </div>   
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC2">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="d-none d-sm-block">This course will introduce the core data structures of the Python programming language. We will move past the basics of procedural programming and explore how we can use the Python built-in data structures such as lists, dictionaries, and tuples to perform increasingly complex data analysis. This course will cover Chapters 6-10 of the textbook “Python for Everybody”.  This course covers Python 3.</p>
-                                        </div>
-                                        <div class="col">
-                                            <embed class="d-flex mr3 img-thumbnail"
-                                            src="file/PythonforEverybody/Data structures with python.pdf" alt="pythonforeverybodyc2"> 
-                                        </div>
-                                    </div>                                          
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC3">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="d-none d-sm-block">In the capstone, students will build a series of applications to retrieve, process and visualize data using Python.   The projects will involve all the elements of the specialization.  In the first part of the capstone, students will do some visualizations to become familiar with the technologies in use and then will pursue their own project to visualize some other data that they have or can find.  Chapters 15 and 16 from the book “Python for Everybody” will serve as the backbone for the capstone. This course covers Python 3.</p>
-                                        </div>
-                                        <div class="col">
-                                            <embed class="d-flex mr3 img-thumbnail"
-                                            src="file/PythonforEverybody/Capstone Retrieving, Processing, and Visualizing Python.pdf" alt="pythonforeverybodyc3"> 
-                                        </div>
-                                    </div>        
-                                </div>
-
-                                <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC4">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="d-none d-sm-block">This course will introduce students to the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort.  The course will use SQLite3 as its database.  We will also build web crawlers and multi-step data gathering and visualization processes.  We will use the D3.js library to do basic data visualization.  This course will cover Chapters 14-15 of the book “Python for Everybody”. To succeed in this course, you should be familiar with the material covered in Chapters 1-13 of the textbook and the first three courses in this specialization. This course covers Python 3.</p>
-                                        </div>
-                                        <div class="col">
-                                            <embed class="d-flex mr3 img-thumbnail"
-                                            src="file/PythonforEverybody/Using database with Python.pdf" alt="pythonforeverybodyc4"> 
-                                        </div>
-                                    </div>                                     
-                                </div>
-
-                                <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC5">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="d-none d-sm-block">This course aims to teach everyone the basics of programming computers using Python. We cover the basics of how one constructs a program from a series of simple instructions in Python.  The course has no pre-requisites and avoids all but the simplest mathematics. Anyone with moderate computer experience should be able to master the materials in this course. This course will cover Chapters 1-5 of the textbook “Python for Everybody”.  Once a student completes this course, they will be ready to take more advanced programming courses. This course covers Python 3.</p>
-                                        </div>
-                                        <div class="col">
-                                            <embed class="d-flex mr3 img-thumbnail"
-                                            src="file/PythonforEverybody/Programming for Everybody (Python).pdf" alt="pythonforeverybodyc5"> 
-                                        </div>
-                                    </div>                                     
-                                </div>                                                                                                                                                            
+                <div class="container" style="padding-top: 20px;">
+                    <div class="row row-content align-items-center" style="border-bottom: 10px solid rgba(248, 243, 243, 0.3); background: rgba(99, 190, 235, 0.1)">
+                        <div class="col col-sm order-sm-first col-md">
+                            <div class="media">
+                                <embed class="d-flex mr3 img-thumbnail align-self-center"
+                                src="file/Python for Everybody.pdf" alt="pythonforeverybody">
+                                <div class="media-body">
+                                    <h2 class="mt-9" style="margin:10px">Python for Everybody</h2>
+                                    <p class="d-none d-sm-block" style="margin:10px">This Specialization builds on the success of the Python for
+                                        Everybody course and will introduce fundamental programming
+                                        concepts including data structures, networked application
+                                        program interfaces, and databases, using the Python
+                                        programming language. In the Capstone Project, you’ll use the
+                                        technologies learned throughout the Specialization to design and
+                                        create your own applications for data retrieval, processing, and
+                                        visualization.</p>
+                                    <div class="row" style="margin:10px">
+                                        <ol class="col-8 breadcrumb" >
+                                            <li class="breadcrumb-item"><a href="https://www.coursera.org/specializations/python">Python for Everybody Specialization, University Michigan</a></li>
+                                        </ol>
+                                        <ol class="col-4 breadcrumb" >
+                                            <li class="breadcrum-item"><a href="./displaycertificates.html" >Display my Certificates</li>
+                                        </ol>
+                                    </div>
+                                </div>  
                             </div>
-                        </div>    
+                            <div class="row">
+                                <h5 style="color: rgba(20, 6, 6, 0.8); text-decoration: none;">More information about this specialization</h3>
+                                <ul class="nav nav-tabs">
+                                    <li nav-item>
+                                        <a class="nav-link active" href="#PythonforEverybodyC1" role="tab" data-toggle="tab">
+                                            Using Python to Access Web Data</a>                               
+                                    </li>
+                                    <li nav-item>
+                                        <a class="nav-link" href="#PythonforEverybodyC2" role="tab" data-toggle="tab">
+                                            Python Data Structures</a>
+                                    </li>
+                                    <li nav-item>
+                                        <a class="nav-link" href="#PythonforEverybodyC3" role="tab" data-toggle="tab">
+                                            Capstone: Retrieving, Processing, and Visualizing Data with Python</a>
+                                    </li>
+                                    <li nav-item>
+                                        <a class="nav-link" href="#PythonforEverybodyC4" role="tab" data-toggle="tab">
+                                            Using Databases with Python</a>
+                                    </li>
+                                    <li nav-item>
+                                        <a class="nav-link" href="#PythonforEverybodyC5" role="tab" data-toggle="tab">
+                                            Programming for Everybody (Getting Started with Python)</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade show active" id="PythonforEverybodyC1">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="d-none d-sm-block">This course will show how one can treat the Internet as a source of data.  We will scrape, parse, and read web data as well as access data using web APIs.  We will work with HTML, XML, and JSON data formats in Python.  This course will cover Chapters 11-13 of the textbook “Python for Everybody”. To succeed in this course, you should be familiar with the material covered in Chapters 1-10 of the textbook and the first two courses in this specialization.  These topics include variables and expressions, conditional execution (loops, branching, and try/except), functions, Python data structures (strings, lists, dictionaries, and tuples), and manipulating files.  This course covers Python 3.</p>
+                                            </div>
+                                            <div class="col">
+                                                <embed class="d-flex mr3 img-thumbnail"
+                                                src="file/PythonforEverybody/Using Python to Access Web Data.pdf" alt="pythonforeverybodyc1"> 
+                                            </div>
+                                        </div>   
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC2">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="d-none d-sm-block">This course will introduce the core data structures of the Python programming language. We will move past the basics of procedural programming and explore how we can use the Python built-in data structures such as lists, dictionaries, and tuples to perform increasingly complex data analysis. This course will cover Chapters 6-10 of the textbook “Python for Everybody”.  This course covers Python 3.</p>
+                                            </div>
+                                            <div class="col">
+                                                <embed class="d-flex mr3 img-thumbnail"
+                                                src="file/PythonforEverybody/Data structures with python.pdf" alt="pythonforeverybodyc2"> 
+                                            </div>
+                                        </div>                                          
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC3">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="d-none d-sm-block">In the capstone, students will build a series of applications to retrieve, process and visualize data using Python.   The projects will involve all the elements of the specialization.  In the first part of the capstone, students will do some visualizations to become familiar with the technologies in use and then will pursue their own project to visualize some other data that they have or can find.  Chapters 15 and 16 from the book “Python for Everybody” will serve as the backbone for the capstone. This course covers Python 3.</p>
+                                            </div>
+                                            <div class="col">
+                                                <embed class="d-flex mr3 img-thumbnail"
+                                                src="file/PythonforEverybody/Capstone Retrieving, Processing, and Visualizing Python.pdf" alt="pythonforeverybodyc3"> 
+                                            </div>
+                                        </div>        
+                                    </div>
+    
+                                    <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC4">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="d-none d-sm-block">This course will introduce students to the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort.  The course will use SQLite3 as its database.  We will also build web crawlers and multi-step data gathering and visualization processes.  We will use the D3.js library to do basic data visualization.  This course will cover Chapters 14-15 of the book “Python for Everybody”. To succeed in this course, you should be familiar with the material covered in Chapters 1-13 of the textbook and the first three courses in this specialization. This course covers Python 3.</p>
+                                            </div>
+                                            <div class="col">
+                                                <embed class="d-flex mr3 img-thumbnail"
+                                                src="file/PythonforEverybody/Using database with Python.pdf" alt="pythonforeverybodyc4"> 
+                                            </div>
+                                        </div>                                     
+                                    </div>
+    
+                                    <div role="tabpanel" class="tab-pane fade" id="PythonforEverybodyC5">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="d-none d-sm-block">This course aims to teach everyone the basics of programming computers using Python. We cover the basics of how one constructs a program from a series of simple instructions in Python.  The course has no pre-requisites and avoids all but the simplest mathematics. Anyone with moderate computer experience should be able to master the materials in this course. This course will cover Chapters 1-5 of the textbook “Python for Everybody”.  Once a student completes this course, they will be ready to take more advanced programming courses. This course covers Python 3.</p>
+                                            </div>
+                                            <div class="col">
+                                                <embed class="d-flex mr3 img-thumbnail"
+                                                src="file/PythonforEverybody/Programming for Everybody (Python).pdf" alt="pythonforeverybodyc5"> 
+                                            </div>
+                                        </div>                                     
+                                    </div>                                                                                                                                                            
+                                </div>
+                            </div>    
+                        </div>
                     </div>
                 </div>
+
+
                 <br>
                 <div class="container">
                     <div class="row">
@@ -446,5 +457,16 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#mycarousel').carousel( { interval:8000 } );
+                $('#carousel-pause').click(function() {
+                    $('#mycarousel').carousel('pause');
+                });
+                $('#carousel-play').click(function() {
+                    $('#mycarousel').carousel('cycle');
+                });
+            })
+        </script>
     </body>
 </html>
