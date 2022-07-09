@@ -1,0 +1,185 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-header .h1 {
+  font-size: 300%;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 10%;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+  text-align: center;
+}
+.footer {
+  background-color: rgba(125, 157, 156, 0.5);
+  padding: 20px 0px;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+  clear: both;
+  background: -moz-linear-gradient(rgba(87, 111, 114, 0.8), rgba(240, 235, 227, 0.2));
+}
+.footer .a {
+  color: #d12e05;
+  padding: 5%;
+}
+.footer .i {
+  color: #2421cd;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: rgba(240, 235, 227, 0.2);
+  color: floralwhite;
+}
+
+header{
+    background: rgba(240, 235, 227, 0.2);
+    text-align: left;
+    padding: 20%;
+}
+
+p{
+    color: rgba(87, 111, 114, 0.8);
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: rgba(87, 111, 114, 0.8);
+}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+.navbar-dark {
+  background-color: rgba(125, 157, 156, 0.5);
+}
+.tab-content {
+  border-left: 1px solid rgba(240, 235, 227, 0.5);
+  border-right: 1px solid rgba(240, 235, 227, 0.5);
+  border-bottom: 1px solid rgba(240, 235, 227, 0.5);
+  padding: 10px;
+}
+figure {
+  float: left;
+  background-color: azure;
+  height: 100px;
+  clear: both;
+}
+.carousel {
+  background: rgba(9, 12, 13, 0.1);
+}
+.carousel .carousel-item {
+  height: 500px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+.breadcrumb {
+  padding-left: 6%;
+  display: inline-block;
+}
+.pdf_display {
+  background-size: cover;
+  box-shadow: 0 0 140px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 300px;
+  width: 500px;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.avatar {
+  height: 3em;
+  width: 3em;
+  margin-top: 8px;
+  border-radius: 5.0em;
+  margin-right: 1em;
+  margin-bottom: 8px;
+}
+.card-body {
+  background-color: rgba(193, 189, 200, 0.2);
+  box-shadow: 0 0 140px 10px rgba(251, 226, 226, 0.5);
+  color: rgba(1, 2, 13, 0.803);
+}
+.card-header {
+  background-color: rgba(106, 25, 246, 0.4);
+}
+.carousel-item {
+  align-items: center;
+}
+.carousel-item img {
+  position: relative;
+  margin-left: 25%;
+  width: 50%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+#mycarousel span {
+  height: 30%;
+  top: 25%;
+  width: 30%;
+  background-color: rgba(240, 240, 242, 0.9);
+}
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  transition: 0.5s background-color;
+}
+nav a:hover {
+  background-color: #74e9e9;
+  color: #444;
+}
+nav a.active {
+  background-color: #f6e5e5;
+  color: #444;
+  cursor: default;
+}
+/* Sub Menus */
+nav li li {
+  font-size: .8em;
+  background-color: #00b7ea;
+}
+nav > ul > li {
+  text-align: center;
+}
+nav > ul > li > a {
+  padding-left: 0;
+}
+/* Sub Menus */
+nav li ul {
+  position: absolute;
+  display: none;
+  width: inherit;
+}
+nav li:hover ul {
+  display: block;
+}
+nav li ul li {
+  display: block;
+}

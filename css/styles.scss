@@ -1,0 +1,217 @@
+//Section variables Color
+$lt-gray: rgba(240, 235, 227, 0.5);
+
+$background-dark: rgba(87, 111, 114, 0.8);
+$background-pale: rgba(125, 157, 156, 0.5);
+$background-light: rgba(240, 235, 227, 0.2);
+
+
+//Section Height variables
+$carousel-item-height: 300px;
+
+// Mixin section
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;
+}
+
+
+.row-header {
+    @include zero-margin(0px, 0px);
+}
+
+.row-content {
+    @include zero-margin(50px, 0px);
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    @include zero-margin(20px, 0px);
+    clear: both;
+    background: -moz-linear-gradient($background-dark,$background-light);
+    background: -moz-linear-gradient($background-dark,$background-light);
+    .a {
+        color: rgb(209, 46, 5);
+        padding: 5%;
+    }
+    
+    .i {
+        color: #2421cd;
+    }  
+}
+
+.jumbotron {
+    @include zero-margin(70px,30px);
+    background: $background-light ;
+    color:$background-dark;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:$background-dark;
+}
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+
+.navbar-dark {
+    background-color: $background-dark;
+}
+
+.tab-content {
+   border-left: 1px solid $lt-gray;
+   border-right: 1px solid $lt-gray;
+   border-bottom: 1px solid $lt-gray;
+   padding: 10px;
+}
+
+figure {
+   float: left;
+   background-color: $background-pale;
+   height:100px;
+   clear: both;
+}
+
+.carousel {
+   background:$background-dark;
+
+   .carousel-item {
+       height: $carousel-item-height;
+       img {
+           position: absolute;
+           top: 0;
+           left: 0;
+           min-height: 300px;
+       }
+   }
+}
+
+#carouselButton {
+   right:0px;
+   position: absolute;
+   bottom: 0px;
+   z-index: 1;
+}
+
+.breadcrumb {
+   padding-left: 6%;
+   display: inline-block;
+}
+
+
+.pdf_display {
+   background-size: cover;
+   box-shadow: 0 0 140px 10px rgba(0,0,0,.5);
+   position: relative;
+   height: 300px;
+   width: 500px;
+ }
+
+ .tab-content {
+   border-left: 1px solid #ddd;
+   border-right: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+   padding: 10px;
+}
+
+.avatar {
+   height: 3em;
+   width: 3em;
+   margin-top: 8px;
+   border-radius: 5.0em;
+   margin-right: 1em;
+   margin-bottom: 8px;
+ }
+
+.card-body {
+     background-color: rgba(193, 189, 200, 0.2);
+     box-shadow: 0 0 140px 10px rgba(251, 226, 226, 0.5);
+     color:rgba(1, 2, 13, 0.803);
+ }
+
+.card-header {
+   background-color: rgba(106, 25, 246, 0.4);
+}
+
+.carousel-item {
+   align-items: center;
+}
+
+
+.carousel-item img {
+   position: relative;
+   margin-left: 25%;
+   width: 50%;
+   padding-bottom: 5%;
+   padding-top: 5%;
+}
+
+
+#mycarousel span {
+   height: 30%;
+   top: 25%;
+   width: 30%;
+   background-color:rgba(240, 240, 242, 0.9);
+}
+
+#carouselButton{
+   right: 0px;
+   position: absolute;
+   bottom: 0px;
+   z-index: 1;
+}
+
+nav a {
+   text-decoration: none;
+   color: #fff;
+   display: block;
+   padding-left: 15px;
+   transition: .5s background-color;
+ }
+ 
+ nav a:hover {
+   background-color: #74e9e9;
+   color: #444;
+ }
+ 
+ nav a.active {
+   background-color: rgb(246, 229, 229);
+   color: #444;
+   cursor: default;
+ }
+ 
+ /* Sub Menus */
+ nav li li {
+   font-size: .8em;
+   background-color: #00b7ea;
+ }
+ 
+ nav > ul > li {
+    text-align: center;
+ }
+ 
+ nav > ul > li > a {
+     padding-left: 0;
+ }
+ 
+ /* Sub Menus */
+ nav li ul {
+     position: absolute;
+     display: none;
+     width: inherit;
+ }
+ 
+ nav li:hover ul {
+    display: block;
+ }
+ 
+ nav li ul li {
+    display: block;
+  }
+ 
