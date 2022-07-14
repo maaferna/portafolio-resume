@@ -36,8 +36,9 @@
   background-image: url('../image/jumbotron.jpg');
   color:white !important;
   background-size: contain;
-  background-repeat: no-repeat;
+
 }
+
 
 header{
     background: rgba(240, 235, 227, 0.2);
