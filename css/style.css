@@ -34,11 +34,14 @@
   margin: 0px auto;
   padding: 70px 30px;
   background-image: url('../image/jumbotron.jpg');
-  color:white !important;
+  color:rgba(241, 238, 238, 0.951) !important;
+  background-color: rgba(246, 147, 18, 0.9);
   background-size: contain;
-
 }
 
+p{
+  color: rgba(87, 111, 114, 0.8);
+}
 
 header{
     background: rgba(240, 235, 227, 0.2);
@@ -46,9 +49,6 @@ header{
     padding: 20%;
 }
 
-p{
-    color: rgba(87, 111, 114, 0.8);
-}
 
 address {
   font-size: 80%;
@@ -190,3 +190,21 @@ nav li:hover ul {
 nav li ul li {
   display: block;
 }
+
+#paragraph {
+  color:rgba(250, 244, 244, 0.8) !important; 
+  background-color: rgba(62, 36, 3, 0.58)
+}
+
+@media only screen and (min-width:780px) {
+  h1{
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  h1{
+    width: 75%;
+  }
+}
+
